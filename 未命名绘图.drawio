@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-06T09:35:27.970Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.42" etag="YOFhKoAF1CpGRnxDmqMy" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-06T10:44:25.340Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.42" etag="v69d5hpgZpw3DMI783n4" version="21.3.2" type="github">
   <diagram name="第 1 页" id="wBqTDlrh9hlUzduM-qcQ">
     <mxGraphModel dx="860" dy="1940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -62,7 +62,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Eu8mDiv_U7yfm6DZA7aN-7" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="610" y="170" width="40" height="30" as="geometry" />
+          <mxGeometry x="570" y="200" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Eu8mDiv_U7yfm6DZA7aN-11" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="440" y="50" width="40" height="30" as="geometry" />
@@ -84,7 +84,7 @@
         <mxCell id="Eu8mDiv_U7yfm6DZA7aN-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Eu8mDiv_U7yfm6DZA7aN-13" target="Eu8mDiv_U7yfm6DZA7aN-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Eu8mDiv_U7yfm6DZA7aN-13" value="将密码加密之后转为token发送给前端&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Eu8mDiv_U7yfm6DZA7aN-13" value="将密码加密之后转为token发送给前端，到期之后自动删除数据库内的token" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="263" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Eu8mDiv_U7yfm6DZA7aN-15" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
